@@ -1,0 +1,275 @@
+@media (max-width:1800px) {
+    .confettie{
+        left: 150px !important;
+    } 
+}
+@media (max-width:1600px) {
+    .confettie {
+        left: 100px !important;
+    }
+}
+@media (max-width:1440px) {
+    .confettie {
+        left: 80px !important;
+    }
+    .modal-window {
+        left: 350px !important;
+        right: 350px !important;
+        top: 80px !important;
+        bottom: 80px !important;
+    }
+    .modal-close {
+        top: 120px !important;
+        right: 430px !important;  
+    }
+
+@media (max-width:1024px) {
+    .main__menu {
+        grid-template-columns: repeat( 2, 1fr) !important;
+    }
+    .confettie {
+        left: -200px !important;
+    }
+    .animatedBtn {
+        width: 150px !important;
+        bottom: 20px !important;
+        right: 0px !important;
+    }
+    .modal-window {
+        left: 150px !important;
+        right: 150px !important;
+        top: 50px !important;
+        bottom: 50px !important;
+    }
+    .modal-close {
+        top: 100px !important;
+        right: 210px !important;  
+    }
+}
+@media (max-width:1100px) {
+    .intro__text {
+        text-align: justify !important;
+    }
+    .main__cards-desc {
+        text-align: justify !important;
+    }
+}
+
+@media (max-width:768px) {
+    .confettie {
+        left: -250px !important;
+    }
+    .animatedBtn {
+        width: 100px !important;
+        bottom: 20px !important;
+        right: 0px !important;
+    }
+    .modal-window {
+        left: 50px !important;
+        right: 50px !important;
+        top: 50px !important;
+        bottom: 50px !important;
+    }
+    .modal-close {
+        top: 110px !important;
+        right: 120px !important;  
+    }
+    .menu-bar {
+        opacity: 1 !important;
+    }
+    .header__pos {
+        display: none !important;
+        position: absolute !important;
+        top: -150%;
+        transition: all 0.5s !important;
+    }
+    #header-menu:checked ~ .header__pos {
+        position: relative !important;
+        display: block !important;
+        top: 0 !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        background: rgba(0, 0, 0, 0.5) !important;
+    }
+    .header__wrapper {
+        height: 100vh !important;
+        padding: 50px !important;
+        flex-flow: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .header__nav-ul {
+        flex-flow: column wrap !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .header__logo {
+        margin-bottom: 90px !important;
+    }
+    .header__nav-link {
+        font-family: Raleway-Black !important;
+    }
+    .intro__title {
+        font-size: 60px !important;
+    }
+    .intro__wrapper {
+        align-items: center !important;
+    }
+    .intro__btns {
+        flex-flow: column !important;
+    }
+    .intro__price {
+        margin-bottom: 30px !important;
+    }
+}
+
+@media (max-width:640px) {
+    .main__menu {
+        grid-template-columns:  1fr !important;
+    }
+    .intro__title {
+        text-align: center !important;
+    }
+}
+@media (max-width:640px) {
+    .information__direction-icon {
+        font-size: 16 !important;
+    }
+    .information__direction-text {
+        font-size: 12px !important;
+    }
+    .infomation__link {
+        font-size: 12px !important;
+    }
+    .main__desc {
+        font-size: 15px !important;
+        line-height: 20px !important;
+        font-family: var(--ral-400) !important;
+    }
+}
+@media (max-width:425px) {
+
+    .modal-close {
+        width: 100vw;
+        height: 200vw;
+         font-size: 90px !important;
+        right: -100px !important;
+    }
+
+    .confettie {
+        top: 100px;
+        left: -100px !important;
+    }
+    .animatedBtn {
+        width: 150px !important;
+        bottom: 20px !important;
+        right: 0px !important;
+    }
+    .modal-window {
+        width: 100vw !important;
+        left: 0px !important;
+        right: 0px !important;
+        top: 0px !important;
+        bottom: 0px !important;
+    }
+    .notAnimatedImg {
+        position: absolute !important;
+        z-index: -100 !important;
+    }
+    .modal__window-content {
+        position: absolute;
+        top: 180px !important;
+        left: 100px !important;
+    }
+    .modal-desc {
+        text-align: center;
+    }
+    .tabs__main-content span {
+        width: 400px !important;
+        font-size: 10px !important;
+    }
+
+    .modal-close {
+        height: 50px;
+        top: 70px !important;
+        left: 190px !important;  
+        font-size: 50px !important;
+    }
+    .information__direction-icon {
+        font-size: 13px !important;
+    }
+    .information__direction-text {
+        font-size: 10px !important;
+    }
+    .infomation__link {
+        font-size: 10px !important;
+    }
+    .main__navbar-link {
+        font-size: 12px !important;
+    }
+    .footer__contacts {
+        flex-flow: column wrap !important;
+    }
+    .footer__contacts img {
+        margin-bottom: 15px !important;
+    }
+    .intro__title {
+        font-size: 50px !important;
+        line-height: 50px !important;
+    }
+}
+@media (max-width:390px) {
+    .modal-close {
+        height: 50px;
+        top: 50px !important;
+        left: 180px !important;  
+        font-size: 50px !important;
+    }
+    .modal-congratulations {
+        font-size: 30px !important;
+    }
+    .tabs {
+        width: 300px !important;
+    }
+    .tabs-heade {
+        justify-content: space-around;
+    }
+    .tabs__header-item a {
+        font-size: 20px !important;
+        padding: 10px !important;
+    }
+    .tabs__main-content h2{
+        font-size: 15px !important;
+    }
+}
+    .tabs__main-content span{
+        width: 350px !important;
+    }
+}
+
+@media (max-width:375px) {
+    .confettie {
+        left: -80px !important;
+    }
+    .modal-window {
+        left: 40px !important;
+        right: -230px !important;
+        top: 350px !important;
+        bottom: -250px !important;
+    }
+}
+@media (max-width:320px) {
+    .confettie {
+        left: -60px !important;
+    }
+    .modal-window {
+        left: 50px !important;
+        right: -280px !important;
+        top: 350px !important;
+        bottom: -250px !important;
+    }
+}
+
+
+}
